@@ -1,3 +1,8 @@
+---
+title: Privacy Policy
+permalink: /privacy/
+---
+
 # Privacy Policy: Prompt Optimizer plugin for ChatGPT and Codex
 
 Last updated: October 2, 2026

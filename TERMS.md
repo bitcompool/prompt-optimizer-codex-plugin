@@ -1,3 +1,8 @@
+---
+title: Terms of Use
+permalink: /terms/
+---
+
 # Terms of Use: Prompt Optimizer plugin for ChatGPT and Codex
 
 Last updated: October 2, 2026

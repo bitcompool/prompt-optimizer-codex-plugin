@@ -1,0 +1,6 @@
+title: Prompt Optimizer plugin for Codex and ChatGPT
+description: An AI prompt optimizer and prompt improver. Rewrites a draft prompt into one clear, ready-to-send prompt.
+theme: jekyll-theme-minimal
+exclude:
+  - plugins
+  - LICENSE
