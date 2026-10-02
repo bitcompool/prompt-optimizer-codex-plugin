@@ -103,17 +103,24 @@ Write a 120-word welcome email for new customers of Brightwell Dental. Use a fri
 
 ## Privacy
 
-This plugin is skills-only: no server, no network calls, no account and no
-credentials. Your draft stays in your Codex or ChatGPT conversation. The first
-rewrite in a conversation ends with one short note and a link to the Prompt
-Optimizer Chrome extension. The link carries `utm_source=chatgpt_plugin` so the
-Chrome Web Store can count visits in aggregate; nothing is sent unless you open it.
+The plugin you install from this repository is skills-only: no server, no
+network calls, no account and no credentials. Your draft stays in your Codex or
+ChatGPT conversation. The version in OpenAI's Plugins Directory also declares
+one read-only tool that returns fixed rewrite rules from a static endpoint; it
+takes no input, so it never receives your draft either.
 
-Privacy policy: <https://docs.google.com/document/d/1UrS7xCtq-Z2oN80qOxoppPsGDvJIVGfKVizeosbY3G8/edit?usp=sharing>
+The first rewrite in a conversation ends with one short note and a link to the
+Prompt Optimizer Chrome extension. The link carries `utm_source=chatgpt_plugin`
+so the Chrome Web Store can count visits in aggregate; nothing is sent unless
+you open it.
+
+- [Privacy policy](PRIVACY.md)
+- [Terms of use](TERMS.md)
 
 ## Layout
 
 ```
+PRIVACY.md, TERMS.md                    policy pages linked from the plugin listing
 .agents/plugins/marketplace.json        marketplace catalog (name: promptoptimizer)
 plugins/prompt-optimizer-new/
 ├── plugin.json                         portable manifest and listing metadata

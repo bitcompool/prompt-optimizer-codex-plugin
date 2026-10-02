@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "prompt-optimizer-new",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Prompt Optimizer is an AI prompt optimizer and prompt improver for Codex and ChatGPT. It rewrites a draft prompt into one clearer, better-structured prompt before you send it, keeps your names, numbers, code and constraints exactly as written, and never runs the task.",
   "author": {
     "name": "Prompt Optimizer",
@@ -37,7 +37,8 @@
         ],
         "websiteURL": "https://chromewebstore.google.com/detail/prompt-optimizer-for-ai-c/gdcbodccfgjcmpgalklepecanaclmkab",
         "supportURL": "https://github.com/bitcompool/prompt-optimizer-codex-plugin/issues",
-        "privacyPolicyURL": "https://docs.google.com/document/d/1UrS7xCtq-Z2oN80qOxoppPsGDvJIVGfKVizeosbY3G8/edit?usp=sharing",
+        "privacyPolicyURL": "https://github.com/bitcompool/prompt-optimizer-codex-plugin/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/bitcompool/prompt-optimizer-codex-plugin/blob/main/TERMS.md",
         "defaultPrompt": [
           "Improve this prompt before I send it: write a blog post about fitness.",
           "Optimize this prompt: add pagination to the /users endpoint.",
@@ -47,9 +48,6 @@
         "brandColorDark": "#1F4CF9",
         "composerIcon": "./assets/logo.png",
         "logo": "./assets/logo.png"
-      },
-      "publication": {
-        "release_notes": "Version 0.1.1: clearer listing with install steps and examples, search keywords, and a public Codex marketplace repository. Same rewrite-only behavior: no tools, no network calls."
       }
     }
   }
