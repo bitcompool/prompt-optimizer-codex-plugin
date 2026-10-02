@@ -35,8 +35,8 @@
     ],
     "websiteURL": "https://chromewebstore.google.com/detail/prompt-optimizer-for-ai-c/gdcbodccfgjcmpgalklepecanaclmkab",
     "supportURL": "https://github.com/bitcompool/prompt-optimizer-codex-plugin/issues",
-    "privacyPolicyURL": "https://github.com/bitcompool/prompt-optimizer-codex-plugin/blob/main/PRIVACY.md",
-    "termsOfServiceURL": "https://github.com/bitcompool/prompt-optimizer-codex-plugin/blob/main/TERMS.md",
+    "privacyPolicyURL": "https://bitcompool.github.io/prompt-optimizer-codex-plugin/privacy/",
+    "termsOfServiceURL": "https://bitcompool.github.io/prompt-optimizer-codex-plugin/terms/",
     "defaultPrompt": [
       "Improve this prompt before I send it: write a blog post about fitness.",
       "Optimize this prompt: add pagination to the /users endpoint.",
