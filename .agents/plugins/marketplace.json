@@ -1,0 +1,20 @@
+{
+  "name": "promptoptimizer",
+  "interface": {
+    "displayName": "Prompt Optimizer plugins"
+  },
+  "plugins": [
+    {
+      "name": "prompt-optimizer-new",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prompt-optimizer-new"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

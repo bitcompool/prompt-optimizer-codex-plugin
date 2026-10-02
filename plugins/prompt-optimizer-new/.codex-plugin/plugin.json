@@ -1,0 +1,52 @@
+{
+  "name": "prompt-optimizer-new",
+  "version": "0.1.1",
+  "description": "Prompt Optimizer is an AI prompt optimizer and prompt improver for Codex and ChatGPT. It rewrites a draft prompt into one clearer, better-structured prompt before you send it, keeps your names, numbers, code and constraints exactly as written, and never runs the task.",
+  "author": {
+    "name": "Prompt Optimizer",
+    "url": "https://chromewebstore.google.com/detail/prompt-optimizer-for-ai-c/gdcbodccfgjcmpgalklepecanaclmkab"
+  },
+  "homepage": "https://chromewebstore.google.com/detail/prompt-optimizer-for-ai-c/gdcbodccfgjcmpgalklepecanaclmkab",
+  "repository": "https://github.com/bitcompool/prompt-optimizer-codex-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "prompt optimizer",
+    "ai prompt optimizer",
+    "prompt optimization",
+    "improve prompt",
+    "prompt improver",
+    "ai prompt enhancer",
+    "chatgpt prompt optimizer",
+    "openai prompt optimizer",
+    "better prompt",
+    "prompt engineering"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Prompt Optimizer",
+    "shortDescription": "Optimize and improve prompts",
+    "longDescription": "Prompt Optimizer is an AI prompt optimizer and prompt improver for Codex and ChatGPT. Paste a rough draft, ask for it to be improved, and get back one clearer, better-structured prompt, ready to send. It never runs the task in your draft.\n\nWhat it does\n- Prompt optimization: turns a rough draft into a clear request with the goal, the constraints and the output form stated.\n- Improve prompts for any AI assistant: ChatGPT, Codex, Claude, Gemini and others.\n- Keeps your names, numbers, dates, code and quoted text exactly as written.\n- Replies in the language of your draft.\n- Leaves open details open: no invented facts and no placeholders.\n\nHow to use it\nAsk in plain words:\nImprove this prompt before I send it: write a blog post about fitness.\nOr name the skill: $prompt-optimizer-new followed by your draft.\n\nInstall in Codex\ncodex plugin marketplace add bitcompool/prompt-optimizer-codex-plugin\nThen open /plugins in Codex CLI and install Prompt Optimizer.\nSource and updates: https://github.com/bitcompool/prompt-optimizer-codex-plugin\n\nWhat it does not do\n- It does not carry out the task in your draft or answer its question.\n- It does not ask clarifying questions first.\n- It does not write a prompt from nothing: you bring the draft.\n- It does not edit finished text such as an essay or an email.\n\nSkills only: no tools, no accounts, no network calls. Your draft never leaves the conversation.\n\nAlso available as a Chrome extension: Prompt Optimizer for AI Chats adds the same rewrite, plus Advisor, inside ChatGPT, Claude, Gemini and other AI chats. https://chromewebstore.google.com/detail/prompt-optimizer-for-ai-c/gdcbodccfgjcmpgalklepecanaclmkab",
+    "developerName": "Prompt Optimizer",
+    "category": "Productivity",
+    "capabilities": [
+      "Optimize and improve a rough prompt before you send it",
+      "Keep your names, numbers, code and constraints exact",
+      "Reply in the language of your draft without running its task"
+    ],
+    "websiteURL": "https://chromewebstore.google.com/detail/prompt-optimizer-for-ai-c/gdcbodccfgjcmpgalklepecanaclmkab",
+    "supportURL": "https://github.com/bitcompool/prompt-optimizer-codex-plugin/issues",
+    "privacyPolicyURL": "https://docs.google.com/document/d/1UrS7xCtq-Z2oN80qOxoppPsGDvJIVGfKVizeosbY3G8/edit?usp=sharing",
+    "defaultPrompt": [
+      "Improve this prompt before I send it: write a blog post about fitness.",
+      "Optimize this prompt: add pagination to the /users endpoint.",
+      "Rewrite this prompt so it is clearer, keep every detail I wrote."
+    ],
+    "brandColor": "#1F4CF9",
+    "brandColorDark": "#1F4CF9",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  },
+  "publication": {
+    "release_notes": "Version 0.1.1: clearer listing with install steps and examples, search keywords, and a public Codex marketplace repository. Same rewrite-only behavior: no tools, no network calls."
+  }
+}
